@@ -5095,4 +5095,6 @@
   .bx-zoom-out:before {
     content: "\eef4";
   }
-  
+  .bxl-google-scholar:before {
+    content: "\eef5";
+  }
