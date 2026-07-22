@@ -10,12 +10,7 @@
     const forks = element.querySelector("[data-github-forks]");
 
     try {
-      const response = await fetch(`https://api.github.com/repos/${repo}`, {
-        headers: {
-          Accept: "application/vnd.github+json",
-          "X-GitHub-Api-Version": "2026-03-10",
-        },
-      });
+      const response = await fetch(`https://api.github.com/repos/${repo}`);
 
       if (!response.ok) throw new Error(`GitHub API returned ${response.status}`);
 
