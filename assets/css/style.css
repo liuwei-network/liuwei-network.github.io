@@ -128,6 +128,7 @@ h3 {
 
 .portrait {
   width: 174px;
+  height: 174px;
   aspect-ratio: 1;
   border-radius: 8px;
   object-fit: cover;
@@ -413,6 +414,7 @@ footer p {
 
   .portrait {
     width: 122px;
+    height: 122px;
   }
 
   .intro-copy h1 {
@@ -452,6 +454,7 @@ footer p {
 
   .portrait {
     width: 136px;
+    height: 136px;
   }
 
   .section-heading {
