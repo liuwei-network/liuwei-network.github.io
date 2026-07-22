@@ -1,307 +1,411 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wei Liu is an Assistant Researcher at Zhongguancun Laboratory working on satellite networks, direct-to-cell systems, and cellular networks.">
+  <meta name="theme-color" content="#0b2027">
+  <meta property="og:title" content="Wei Liu — Satellite & Cellular Networks">
+  <meta property="og:description" content="Research on direct-to-cell satellite networks, LEO systems, and cellular networks.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://liuwei-network.github.io/">
+  <meta property="og:image" content="https://liuwei-network.github.io/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wei Liu — Satellite & Cellular Networks">
+  <meta name="twitter:description" content="Research on direct-to-cell satellite networks, LEO systems, and cellular networks.">
+  <meta name="twitter:image" content="https://liuwei-network.github.io/img/og.png">
 
-  <title>Wei Liu</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Wei Liu — Satellite & Cellular Networks</title>
 
-  <!-- Favicons -->
-  <link href="img/favicon.jpg" rel="icon"> 
-  <link href="img/favicon.jpg" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="img/favicon.jpg">
+  <link rel="apple-touch-icon" href="img/favicon.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/academicons-1.9.4/css/academicons.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
+  <script>document.documentElement.classList.add('js');</script>
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v3.7.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <header class="site-header" id="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#top" aria-label="Wei Liu, home">
+        <span class="brand-mark" aria-hidden="true">WL</span>
+        <span class="brand-copy">
+          <strong>Wei Liu</strong>
+          <small>刘威</small>
+        </span>
+      </a>
 
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#honors">Honors</a>
+      </nav>
 
-      <div class="profile">
-        <img src="img/ava3.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Wei Liu (刘威)</a></h1> </br>
-        <p class="text-light text-center"> Assistant Researcher</br>
-                                          Zhongguancun Laboratory</p>
-        <div class="social-links mt-3 text-center">
-          <!-- <a href="https://twitter.com/" class="twitter"><i class="bx bxl-twitter"></i></a> -->
-          <a href="https://github.com/liuwei-network" class="github"><i class="bx bxl-github"></i></a>
-          <a href="mailto:lw21@tsinghua.org.cn" class="twitter"><i class="bx bx-envelope"></i></a>
-          <a href="https://scholar.google.com/citations?user=xYMXXToAAAAJ&hl=en" class="scholar"><i class="ai ai-google-scholar-square"></i></a>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Use dark theme" aria-pressed="false">
+          <i class="bi bi-sun" aria-hidden="true"></i>
+          <i class="bi bi-moon-stars" aria-hidden="true"></i>
+        </button>
+        <a class="nav-contact" href="mailto:lw21@tsinghua.org.cn">Let’s talk <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span>
+        </button>
       </div>
-
-      <nav id="navbar" class="nav-menu navbar">
-        <ul>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Biography</span></a></li>
-          <li><a href="#education" class="nav-link scrollto"><i class="bx bxs-graduation"></i> <span>Education</span></a></li>
-          <li><a href="#publication" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Publications</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Academic Services</span></a></li>
-          <li><a href="#teaching" class="nav-link scrollto"><i class="bx bx-edit"></i> <span>Teaching Experience</span></a></li>
-          <li><a href="#awards" class="nav-link scrollto"><i class="bx bx-award"></i> <span>Honors and Awards</span></a></li>
-          <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
-        </ul>
-      </nav><!-- .nav-menu -->
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Biography</h2>
-          <p>
-            Hey! I am Wei Liu, currently an Assistant Researcher at 
-            Zhongguancun Laboratory. 
-            I received my Ph.D. degree from Tsinghua University, where I was fortunate to be advised by  
-            <a href="http://www.yuanjiel.com">Prof. Yuanjie Li</a>. 
-            Previously, I obtained my bachelor's degree from 
-            <a href="https://www.bupt.edu.cn">Beijing University of Posts and Telecommunications</a> (BUPT).
-          </p> </br>
-
-          <p>
-            My research interests lie in satellite networks and cellular networks. 
-            My current research focuses on direct-to-cell satellite networks.
-          </p> </br>
-
-          <p> I actively maintain an open bibliography page for satellite network papers, projects, and resources on Github. Check <a href="https://github.com/liuwei-network/awesome-satellite-network">here</a> for details.</p> </br>
-
-          <!-- <p><strong>I am actively seeking job opportunities in both **academia and industry** starting in 2026. If my research and background align with your interests, I'd be delighted to connect. Feel free to email me at lw21 [at] mails.tsinghua.edu.cn. </strong></p> </br> -->
-          <!-- <p>My resume can be found <a href="./files/CV-mrj.pdf">here</a>.</p> -->
+    <section class="hero" id="top">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="shell hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Assistant Researcher · Zhongguancun Laboratory</p>
+          <h1>Networking<br><em>beyond the horizon.</em></h1>
+          <p class="hero-intro">
+            I am Wei Liu, a network systems researcher exploring how satellites and cellular networks can connect people reliably—on the ground and far beyond it.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#publications">Explore my work <i class="bi bi-arrow-down-right" aria-hidden="true"></i></a>
+            <a class="button button-ghost" href="https://scholar.google.com/citations?user=xYMXXToAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">
+              Google Scholar <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="hero-stats" aria-label="Research highlights">
+            <div><strong>10</strong><span>Selected works</span></div>
+            <div><strong>2021—26</strong><span>Research arc</span></div>
+            <div><strong>1</strong><span>Outstanding Paper</span></div>
+          </div>
         </div>
 
+        <div class="portrait-stage reveal">
+          <div class="orbit orbit-one" aria-hidden="true"><span></span></div>
+          <div class="orbit orbit-two" aria-hidden="true"><span></span></div>
+          <div class="portrait-frame">
+            <img src="img/ava3.jpg" alt="Portrait of Wei Liu" width="2078" height="2082">
+          </div>
+          <div class="focus-card">
+            <span class="signal-dot" aria-hidden="true"></span>
+            <small>Current focus</small>
+            <strong>Direct-to-cell networks</strong>
+          </div>
+          <p class="portrait-caption"><span>39.9042° N</span><span>Beijing, China</span></p>
+        </div>
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-     <!-- ======= About Education ======= -->
-     <section id="education" class="education">
-      <div class="container">
+    <section class="section about-section" id="about">
+      <div class="shell about-layout">
+        <div class="section-kicker reveal">
+          <span>01</span>
+          <p>About</p>
+        </div>
+        <div class="about-copy reveal">
+          <h2>I study networks where terrestrial assumptions no longer hold.</h2>
+          <div class="about-columns">
+            <p>
+              I am an Assistant Researcher at Zhongguancun Laboratory. I received my Ph.D. from Tsinghua University, advised by <a href="http://www.yuanjiel.com" target="_blank" rel="noopener noreferrer">Prof. Yuanjie Li</a>, after completing my bachelor’s degree at <a href="https://www.bupt.edu.cn" target="_blank" rel="noopener noreferrer">Beijing University of Posts and Telecommunications</a>.
+            </p>
+            <p>
+              My research spans satellite and cellular networks, with a current focus on direct-to-cell satellite systems. I build and measure real systems to understand mobility, security, routing, and infrastructure at constellation scale.
+            </p>
+          </div>
+          <div class="profile-links" aria-label="Academic and professional profiles">
+            <a href="https://github.com/liuwei-network" target="_blank" rel="noopener noreferrer"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+            <a href="https://scholar.google.com/citations?user=xYMXXToAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar</a>
+            <a href="mailto:lw21@tsinghua.org.cn"><i class="bi bi-envelope" aria-hidden="true"></i> Email</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <div class="section-title">
-          <h2>Education</h2>
-          <h5 class=""><strong>Ph.D. (2021-2026), Tsinghua University, Beijing, China</strong></h5> 
-          <ul>
-            <li>Major: Cyberspace Security, Institute for Network Sciences and Cyberspace</li>
-            <li>Advisor: <a href="http://www.yuanjiel.com">Prof. Yuanjie Li</a></li>
-            <!-- <li>GPA: 	3.73/4 </li> -->
-          </ul>
-
-          <h5 class=""><strong>Bachelor (2017-2021), Beijing University of Posts and Telecommunications, Beijing, China</strong></h5>
-          <ul>
-            <li>Major: Computer Science and Technology, School of Computer Science</li>
-            <!-- <li>GPA: 3.81/4 <strong><i>(Ranking: 5/387)</i></strong></li> -->
-          </ul>
-
+    <section class="section research-section" id="research">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div class="section-kicker"><span>02</span><p>Research</p></div>
+          <h2>Three layers of one connected future.</h2>
+          <p>From radio access to constellation-scale systems, my work connects measurement with deployable network design.</p>
         </div>
 
-      </div>
-    </section><!-- End About Section -->
+        <div class="research-grid">
+          <article class="research-card reveal">
+            <div class="card-index">01</div>
+            <i class="bi bi-broadcast-pin" aria-hidden="true"></i>
+            <h3>Direct-to-cell satellite networks</h3>
+            <p>Making satellite connectivity work with everyday cellular devices—without specialized terminals or infrastructure.</p>
+            <ul>
+              <li>Access & mobility</li>
+              <li>Location privacy</li>
+              <li>System security</li>
+            </ul>
+          </article>
 
-    <!-- ======= Publication Section ======= -->
-    <section id="publication" class="publication">
-      <div class="container">
+          <article class="research-card research-card-featured reveal">
+            <div class="card-index">02</div>
+            <i class="bi bi-globe2" aria-hidden="true"></i>
+            <h3>LEO networked systems</h3>
+            <p>Understanding and designing mega-constellations as dynamic, distributed infrastructure rather than static links.</p>
+            <ul>
+              <li>Routing</li>
+              <li>Space core networks</li>
+              <li>Large-scale measurement</li>
+            </ul>
+          </article>
 
-        <div class="section-title">
-          <h2>Publications</h2>
-          <ul>
-            <li class="big">
-              <h5 class=""><strong>A Variegated Look at Direct-to-Cell Satellites in the Wild</strong></h5> 
-              <strong><u>Wei Liu*</u></strong>, Jingyi Lan*, Yuanjie Li, Bowen Sun, Yekai Dong, Yufeng Wang, Hewu Li, Qian Wu, Zeqi Lai, Jun Liu</br>
-              ACM Annual Conference of Special Interest Group on Measurement and Evaluation <strong>(SIGMETRICS'26)</strong> </br>
-              [<a href="https://dl.acm.org/doi/10.1145/3788086">paper</a>]
-              <!-- [<a href="https://dl.acm.org/doi/10.1145/3570361.3592519">paper</a>] [<a href="https://www.sigmobile.org/mobicom/2023/media/presentations/LiNetworkingLEO.pdf">slide</a>]  -->
-            </li></br>
-
-            <li class="big">
-              <h5 class=""><strong>Direct-to-Cell Satellite Network without Satellite Navigation</strong></h5> 
-              <strong><u>Wei Liu</u></strong>, Yuanjie Li, Jingyi Lan, Hewu Li, Yimei Chen, Lixin Liu, Jiabo Yang, Xi Long, Li Ouyang, Minghao Tang, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</br>
-              Annual conference of the ACM Special Interest Group on Data Communication <strong>(SIGCOMM'25)</strong> </br>
-              [<a href="https://dl.acm.org/doi/10.1145/3718958.3750522">paper</a>]
-              <!-- [<a href="https://dl.acm.org/doi/10.1145/3570361.3592519">paper</a>] [<a href="https://www.sigmobile.org/mobicom/2023/media/presentations/LiNetworkingLEO.pdf">slide</a>]  -->
-            </li></br>
-
-            <li class="big">
-              <h5 class=""><strong>The Dark Side of Scale: Insecurity of Direct-to-Cell Satellite Mega-Constellations</strong></h5> 
-              <strong><u>Wei Liu</u></strong>, Yuanjie Li, Hewu Li, Yimei Chen, Yufeng Wang, Jingyi Lan, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</br>
-              The 45th IEEE Symposium on Security and Privacy <strong>(S&P'24)</strong>. </br>
-              [<a href="https://www.computer.org/csdl/proceedings-article/sp/2024/313000a149/1Ub246TR9EA">paper</a>] 
-              <!-- [<a href="https://www.sigmobile.org/mobicom/2023/media/presentations/LiNetworkingLEO.pdf">slide</a>]  -->
-            </li></br>
-
-            <li class="big">
-              <h5 class=""><strong>A Networking Perspective on Starlink's Self-Driving LEO Mega-Constellation </strong></h5> 
-              Yuanjie Li, Hewu Li, <strong><u>Wei Liu</u></strong>, Lixin Liu, Wei Zhao, Yimei Chen, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai, Han Qiu</br>
-              ACM International Conference on Mobile Computing and Networking <strong>(MobiCom'23)</strong>. </br>
-              [<a href="https://dl.acm.org/doi/10.1145/3570361.3592519">paper</a>] [<a href="https://www.sigmobile.org/mobicom/2023/media/presentations/LiNetworkingLEO.pdf">slide</a>] 
-            </li></br>
-
-            <li class="big">
-              <h5 class=""><strong>A case for stateless mobile core network functions in space</strong></h5> 
-              Yuanjie Li, Hewu Li, <strong><u>Wei Liu</u></strong>, Lixin Liu, Yimei Chen, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</br>
-              Annual conference of the ACM Special Interest Group on Data Communication <strong>(ACM SIGCOMM'22)</strong>. </br>
-              [<a href="https://dl.acm.org/doi/pdf/10.1145/3544216.3544233">paper</a>] [<a href="https://github.com/yuanjieli/SpaceCore-SIGCOMM22">code</a>] [<a href="https://www.youtube.com/watch?v=eLgZKPm2ugE&list=PLU4C2_kotFP2rg92oGchLFN0Y7F3liFio&index=21">video</a>] [<a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3544216.3544233&file=p298-li-supp.pdf">pubilc review</a>]
-            </li></br>
-
-            <li class="big">
-              <h5 class=""><strong>Stable Hierarchical Routing for Operational LEO Networks</strong></h5> 
-              Yuanjie Li, Lixin Liu, Hewu Li, <strong><u>Wei Liu</u></strong>, Yimei Chen, Wei Zhao, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</br>
-              The 30th Annual International Conference On Mobile Computing And Networking <strong>(MobiCom'24)</strong>. </br>
-              [<a href="https://dl.acm.org/doi/10.1145/3636534.3649362">paper</a>] [<a href="http://www.yuanjiel.com/slides/IETF-mobicom-talk-public.pdf">IETF-121 slide meeting</a>] 
-            </li></br>
- 
-            <li class="big">
-              <h5 class=""><strong>Enabling 6G and Beyond Network Functions from Space: Challenges and Opportunities</strong></h5> 
-              Lixin Liu, <strong><u>Wei Liu</u></strong>, Yuanjie Li, Hewu Li</br>
-              IEEE Internet Computing, 2024. </br>
-              [<a href="https://ieeexplore.ieee.org/abstract/document/10417070">paper</a>]
-              <!-- [<a href="https://dl.acm.org/doi/10.1145/3570361.3592519">paper</a>] [<a href="https://www.sigmobile.org/mobicom/2023/media/presentations/LiNetworkingLEO.pdf">slide</a>]  -->
-            </li></br>
-
-            <li class="big">
-              <h5 class=""><strong>“Internet in Space” for Terrestrial Users via Cyber-Physical Convergence</strong></h5> 
-              Yuanjie Li, Hewu Li, Lixin Liu, <strong><u>Wei Liu</u></strong>, Jiayi Liu, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</br>
-              Twentieth ACM Workshop on Hot Topics in Networks <strong>(ACM HotNets'21)</strong>. </br>
-              [<a href="https://dl.acm.org/doi/10.1145/3484266.3487375">paper</a>] [<a href="https://www.youtube.com/watch?v=ioBmgGSwlrc">video</a>]
-            </li></br>
-
-            <li class="big">
-              <h5 class=""><strong>Democratizing Direct-to-Cell Low Earth Orbit Satellite Networks</strong></h5> 
-              Lixin Liu, Yuanjie Li, Hewu Li, Jiabo Yang, <strong><u>Wei Liu</u></strong>, Jingyi Lan, Yufeng Wang, Jiarui Li, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</br>
-              The 21st USENIX Symposium on Networked Systems Design and Implementation <strong>(NSDI'24)</strong>. </br>
-              <strong><font color="#FF0000">Outstanding Paper Award</font></strong></br>
-              [<a href="https://www.usenix.org/system/files/nsdi24-liu-lixin.pdf">paper</a>]  
-            </li></br>
-            
-            <li class="big">
-              <h5 class=""><strong>Mind the Location Leakage in LEO Direct-to-Cell Satellite Networks </strong></h5> 
-              Weisen Liu, Zeqi Lai, Qian Wu, Hewu Li, Yuxuan Weng, <strong><u>Wei Liu</u></strong>, Qi Zhang, Jihao Li, Yuanjie Li, Jun Liu</br>
-              The 46th IEEE Symposium on Security and Privacy <strong>(S&P'25)</strong> </br>
-              <!-- [<a href="https://ieeexplore.ieee.org/abstract/document/10417070">paper</a>] -->
-              <!-- [<a href="https://dl.acm.org/doi/10.1145/3570361.3592519">paper</a>] [<a href="https://www.sigmobile.org/mobicom/2023/media/presentations/LiNetworkingLEO.pdf">slide</a>]  -->
-            </li></br>
-
-            
-
-          </ul>
+          <article class="research-card reveal">
+            <div class="card-index">03</div>
+            <i class="bi bi-reception-4" aria-hidden="true"></i>
+            <h3>Cellular networking</h3>
+            <p>Revisiting cellular architecture as the network expands across rapidly moving and heterogeneous infrastructure.</p>
+            <ul>
+              <li>Network architecture</li>
+              <li>Cyber-physical systems</li>
+              <li>6G & beyond</li>
+            </ul>
+          </article>
         </div>
 
+        <a class="resource-banner reveal" href="https://github.com/liuwei-network/awesome-satellite-network" target="_blank" rel="noopener noreferrer">
+          <div>
+            <p class="eyebrow"><span></span> Open research resource</p>
+            <h3>Awesome Satellite Networking</h3>
+            <p>A curated bibliography of papers, open-source systems, datasets, testbeds, and tools for satellite networking.</p>
+          </div>
+          <div class="resource-arrow" aria-hidden="true">↗</div>
+        </a>
       </div>
-    </section><!-- End Publication Section -->
+    </section>
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Academic Services</h2>
-          <ul>
-            <!-- <li>Reviewer for IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2023 </li>
-            <li>Reviewer for ACM Transactions on Software Engineering and Methodology (TOSEM), 2023 </li> -->
-            <li>Reviewer for Transactions on Mobile Computing (TMC)</a> </li>
-            <li>Program Committee for <a href="https://conferences.sigcomm.org/sigcomm/2025/cf-artifacts/">SIGCOMM 2025 Artifact Evaluationn</a> </li>
-            <li>Program Committee for <a href="https://www.usenix.org/conference/nsdi26/call-for-artifacts">NSDI 2026 Artifact Evaluationn</a> </li>
-            <li>Shadow Program Committee for <a href="https://conferences.sigcomm.org/co-next/2025/#!/shadow">CoNEXT 2025</a> </li>
-            <li>Program Committee for <a href="https://conferences.sigcomm.org/sigcomm/2024/cf-artifacts/">SIGCOMM 2024 Artifact Evaluationn</a> </li>
-            <!-- <li>Program Committee for <a href="https://fuzzingworkshop.github.io/">FUZZING'22 Workshop@NDSS Artifact Evaluation</a> </li>
-            <li>Program Committee for <a href="https://conf.researchr.org/committee/issta-2022/issta-2022-artifact-evaluation-artifact-evaluation-committee">ISSTA 2022 Artifact Evaluation</a> </li>
-            <li>Program Committee for <a href="https://conf.researchr.org/committee/icse-2022/icse-2022-artifact-evaluation-program-committee">ICSE 2022 Artifact Evaluation</a> </li>
-            <li>Student Volunteer for <a href="https://2022.esec-fse.org/">ESEC/FSE 2022</a> </li> -->
-          </ul>
+    <section class="section publications-section" id="publications">
+      <div class="shell">
+        <div class="section-heading publication-heading reveal">
+          <div class="section-kicker"><span>03</span><p>Publications</p></div>
+          <h2>Selected publications.</h2>
+          <p><u>Wei Liu</u> denotes my authorship; * denotes equal contribution.</p>
         </div>
 
+        <div class="publication-list">
+          <article class="publication-item reveal">
+            <div class="publication-year">2026</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">SIGMETRICS</span><span>Measurement · Direct-to-cell</span></div>
+              <h3>A Variegated Look at Direct-to-Cell Satellites in the Wild</h3>
+              <p><u>Wei Liu*</u>, Jingyi Lan*, Yuanjie Li, Bowen Sun, Yekai Dong, Yufeng Wang, Hewu Li, Qian Wu, Zeqi Lai, Jun Liu</p>
+            </div>
+            <div class="publication-links"><a href="https://dl.acm.org/doi/10.1145/3788086" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2025</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">SIGCOMM</span><span>Direct-to-cell · Systems</span></div>
+              <h3>Direct-to-Cell Satellite Network without Satellite Navigation</h3>
+              <p><u>Wei Liu</u>, Yuanjie Li, Jingyi Lan, Hewu Li, Yimei Chen, Lixin Liu, Jiabo Yang, Xi Long, Li Ouyang, Minghao Tang, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</p>
+            </div>
+            <div class="publication-links"><a href="https://dl.acm.org/doi/10.1145/3718958.3750522" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2025</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">IEEE S&amp;P</span><span>Security · Privacy</span></div>
+              <h3>Mind the Location Leakage in LEO Direct-to-Cell Satellite Networks</h3>
+              <p>Weisen Liu, Zeqi Lai, Qian Wu, Hewu Li, Yuxuan Weng, <u>Wei Liu</u>, Qi Zhang, Jihao Li, Yuanjie Li, Jun Liu</p>
+            </div>
+            <div class="publication-links"><span>IEEE S&amp;P ’25</span></div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2024</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">IEEE S&amp;P</span><span>Security · Direct-to-cell</span></div>
+              <h3>The Dark Side of Scale: Insecurity of Direct-to-Cell Satellite Mega-Constellations</h3>
+              <p><u>Wei Liu</u>, Yuanjie Li, Hewu Li, Yimei Chen, Yufeng Wang, Jingyi Lan, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</p>
+            </div>
+            <div class="publication-links"><a href="https://www.computer.org/csdl/proceedings-article/sp/2024/313000a149/1Ub246TR9EA" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2024</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">MobiCom</span><span>Routing · LEO systems</span></div>
+              <h3>Stable Hierarchical Routing for Operational LEO Networks</h3>
+              <p>Yuanjie Li, Lixin Liu, Hewu Li, <u>Wei Liu</u>, Yimei Chen, Wei Zhao, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</p>
+            </div>
+            <div class="publication-links">
+              <a href="https://dl.acm.org/doi/10.1145/3636534.3649362" target="_blank" rel="noopener noreferrer">Paper ↗</a>
+              <a href="http://www.yuanjiel.com/slides/IETF-mobicom-talk-public.pdf" target="_blank" rel="noopener noreferrer">Slides ↗</a>
+            </div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2024</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">NSDI</span><span class="award">Outstanding Paper Award</span></div>
+              <h3>Democratizing Direct-to-Cell Low Earth Orbit Satellite Networks</h3>
+              <p>Lixin Liu, Yuanjie Li, Hewu Li, Jiabo Yang, <u>Wei Liu</u>, Jingyi Lan, Yufeng Wang, Jiarui Li, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</p>
+            </div>
+            <div class="publication-links"><a href="https://www.usenix.org/system/files/nsdi24-liu-lixin.pdf" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2024</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">IEEE Internet Computing</span><span>6G · Architecture</span></div>
+              <h3>Enabling 6G and Beyond Network Functions from Space: Challenges and Opportunities</h3>
+              <p>Lixin Liu, <u>Wei Liu</u>, Yuanjie Li, Hewu Li</p>
+            </div>
+            <div class="publication-links"><a href="https://ieeexplore.ieee.org/abstract/document/10417070" target="_blank" rel="noopener noreferrer">Paper ↗</a></div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2023</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">MobiCom</span><span>Measurement · Starlink</span></div>
+              <h3>A Networking Perspective on Starlink’s Self-Driving LEO Mega-Constellation</h3>
+              <p>Yuanjie Li, Hewu Li, <u>Wei Liu</u>, Lixin Liu, Wei Zhao, Yimei Chen, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai, Han Qiu</p>
+            </div>
+            <div class="publication-links">
+              <a href="https://dl.acm.org/doi/10.1145/3570361.3592519" target="_blank" rel="noopener noreferrer">Paper ↗</a>
+              <a href="https://www.sigmobile.org/mobicom/2023/media/presentations/LiNetworkingLEO.pdf" target="_blank" rel="noopener noreferrer">Slides ↗</a>
+            </div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2022</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">SIGCOMM</span><span>Space core · Architecture</span></div>
+              <h3>A Case for Stateless Mobile Core Network Functions in Space</h3>
+              <p>Yuanjie Li, Hewu Li, <u>Wei Liu</u>, Lixin Liu, Yimei Chen, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</p>
+            </div>
+            <div class="publication-links">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3544216.3544233" target="_blank" rel="noopener noreferrer">Paper ↗</a>
+              <a href="https://github.com/yuanjieli/SpaceCore-SIGCOMM22" target="_blank" rel="noopener noreferrer">Code ↗</a>
+              <a href="https://www.youtube.com/watch?v=eLgZKPm2ugE&amp;list=PLU4C2_kotFP2rg92oGchLFN0Y7F3liFio&amp;index=21" target="_blank" rel="noopener noreferrer">Video ↗</a>
+            </div>
+          </article>
+
+          <article class="publication-item reveal">
+            <div class="publication-year">2021</div>
+            <div class="publication-body">
+              <div class="publication-topline"><span class="venue">HotNets</span><span>Vision · Cyber-physical</span></div>
+              <h3>“Internet in Space” for Terrestrial Users via Cyber-Physical Convergence</h3>
+              <p>Yuanjie Li, Hewu Li, Lixin Liu, <u>Wei Liu</u>, Jiayi Liu, Jianping Wu, Qian Wu, Jun Liu, Zeqi Lai</p>
+            </div>
+            <div class="publication-links">
+              <a href="https://dl.acm.org/doi/10.1145/3484266.3487375" target="_blank" rel="noopener noreferrer">Paper ↗</a>
+              <a href="https://www.youtube.com/watch?v=ioBmgGSwlrc" target="_blank" rel="noopener noreferrer">Video ↗</a>
+            </div>
+          </article>
+        </div>
       </div>
-    </section><!-- End service Section -->
+    </section>
 
-    <!-- ======= Teaching Section ======= -->
-    <section id="teaching" class="teaching">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Teaching Experience</h2>
-          <ul>
-            <li> Technical Reading, Writing, and Presentation for Cyberspace Security 2023, THU (AY 2023/2024, Semester 1), Teaching Assistant</li>
-            <li> Wireless and Mobile Network Security 2023, THU (AY 2022/2023, Semester 2), Teaching Assistant</li>
-            <li> Technical Reading, Writing, and Presentation for Cyberspace Security 2022, THU (AY 2022/2023, Semester 1), Teaching Assistant</li>
-          </ul>
+    <section class="section experience-section" id="experience">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div class="section-kicker"><span>04</span><p>Experience</p></div>
+          <h2>Education, service & teaching.</h2>
         </div>
 
+        <div class="experience-layout">
+          <article class="timeline-card reveal">
+            <p class="card-label">Education</p>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span>2021—2026</span>
+                <h3>Ph.D. in Cyberspace Security</h3>
+                <p>Tsinghua University · Institute for Network Sciences and Cyberspace</p>
+                <small>Advisor: Prof. Yuanjie Li</small>
+              </div>
+              <div class="timeline-item">
+                <span>2017—2021</span>
+                <h3>Bachelor in Computer Science</h3>
+                <p>Beijing University of Posts and Telecommunications</p>
+                <small>School of Computer Science</small>
+              </div>
+            </div>
+          </article>
+
+          <div class="experience-stack">
+            <article class="detail-card reveal">
+              <p class="card-label">Academic service</p>
+              <ul class="detail-list">
+                <li><span>2026</span> NSDI Artifact Evaluation Committee</li>
+                <li><span>2025</span> SIGCOMM Artifact Evaluation Committee</li>
+                <li><span>2025</span> CoNEXT Shadow Program Committee</li>
+                <li><span>2024</span> SIGCOMM Artifact Evaluation Committee</li>
+                <li><span>—</span> Reviewer, IEEE TMC</li>
+              </ul>
+            </article>
+
+            <article class="detail-card reveal">
+              <p class="card-label">Teaching</p>
+              <ul class="detail-list">
+                <li><span>2023</span> Technical Reading, Writing & Presentation</li>
+                <li><span>2023</span> Wireless and Mobile Network Security</li>
+                <li><span>2022</span> Technical Reading, Writing & Presentation</li>
+              </ul>
+              <p class="detail-note">Teaching Assistant · Tsinghua University</p>
+            </article>
+          </div>
+        </div>
       </div>
-    </section><!-- End Teaching Section -->
+    </section>
 
-    <!-- ======= Award Section ======= -->
-    <section id="awards" class="awards">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Selected Honors and Awards</h2>
-          <ul>
-            <li> Outstanding Graduate of Institute for Network Sciences and Cyberspace, Tsinghua University, 2026 </li>
-            <li> SIGMETRICS Student Travel Grant, 2026 </li>
-            <li> National Scholarship, 2025 </li>
-            <li> The First Price Scholarship of Tsinghua University, 2024 </li>
-            <li> Outstanding Graduate of Beijing University of Posts and Telecommunications, 2021 </li>
-            <li> The First Price Scholarship of Beijing University of Posts and Telecommunications, 2017, 2018 and 2019 </li>
-          </ul>
+    <section class="section honors-section" id="honors">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div class="section-kicker"><span>05</span><p>Honors</p></div>
+          <h2>Selected honors & awards.</h2>
         </div>
 
+        <div class="honors-grid">
+          <article class="honor-card reveal"><span>2026</span><h3>Outstanding Graduate</h3><p>Institute for Network Sciences and Cyberspace, Tsinghua University</p></article>
+          <article class="honor-card reveal"><span>2026</span><h3>SIGMETRICS Student Travel Grant</h3><p>ACM SIGMETRICS</p></article>
+          <article class="honor-card honor-card-accent reveal"><span>2025</span><h3>National Scholarship</h3><p>China</p></article>
+          <article class="honor-card reveal"><span>2024</span><h3>First Prize Scholarship</h3><p>Tsinghua University</p></article>
+          <article class="honor-card reveal"><span>2021</span><h3>Outstanding Graduate</h3><p>Beijing University of Posts and Telecommunications</p></article>
+          <article class="honor-card reveal"><span>2017—19</span><h3>First Prize Scholarship</h3><p>Beijing University of Posts and Telecommunications</p></article>
+        </div>
       </div>
-    </section><!-- End Award Section -->
+    </section>
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container">
-        Powered by iPortfolio, Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div> 
-      
-    </footer> <!-- ======= Footer ======= -->
-    
-  </main><!-- End #main -->
+    <section class="contact-section">
+      <div class="shell contact-card reveal">
+        <div>
+          <p class="eyebrow"><span></span> Contact</p>
+          <h2>Let’s connect the next idea.</h2>
+          <p>I am always happy to discuss satellite networking, cellular systems, research collaborations, and open-source projects.</p>
+        </div>
+        <a class="button button-light" href="mailto:lw21@tsinghua.org.cn">lw21@tsinghua.org.cn <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <footer class="site-footer">
+    <div class="shell footer-layout">
+      <div>
+        <strong>Wei Liu · 刘威</strong>
+        <p>Satellite networks, cellular systems, and the infrastructure between them.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/liuwei-network" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://scholar.google.com/citations?user=xYMXXToAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Scholar ↗</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+      <p class="copyright">© <span id="current-year">2026</span> Wei Liu</p>
+    </div>
+  </footer>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
